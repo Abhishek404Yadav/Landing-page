@@ -20,13 +20,13 @@
 }
 .leftcorner img {
     display: block;
-    margin:5px 50px ;
-    width: 70px; 
+    margin: 0px 50px ;
+    width: 50px;
 }
 .leftcorner span a{
     text-decoration: none;
     color: white;
-    margin-left: 40px;
+    margin-left: 35px;
 }
 .rightcorner{
     flex: 1;
@@ -46,5 +46,55 @@
     color: rgba(255, 34, 34, 0.767);
 }
 /* End of Navigation */
+
 /* Main content Start here */
+.maincontent{
+    display: flex;
+    height: 100vp;
+    background-color: #1F2937;;
+}
+.viewcontent{
+    padding: 50px;
+    align-items: center; /* Flex Item For maincontent */
+    display: flex;
+    flex-direction: row;
+}
+.left_main{
+    /* border: 2px  solid red ; */
+    color: white;
+    margin: 0px 175px 0px 50px;
+    padding: 62px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.left_main h1{
+    display: block; 
+    margin-bottom: 50px; 
+}
+.left_main p{
+    display: block;  
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+.left_main button{
+    display: inline-block;  
+    padding: 10px 23px; 
+    width: max-content;
+    font-size: .845em;
+    text-align: center;
+    background-color: #3882f6;
+    color: white;
+    border-radius: 30px;
+    will-change: transform;
+}
+.btn:hover {
+    box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+    transform: translateY(2px);
+    background-color: #38a1f6;
+  }
+.dogetime{
+    border: 2px  solid green ;
+    width: 300px;
+}
 
